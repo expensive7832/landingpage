@@ -1,0 +1,44 @@
+#services{
+    margin: 5rem 0;
+}
+#services .col-12{
+  width: 30%;  
+  margin: 0 1rem;
+}
+#services .corporate{
+    background-color: rgb(38, 38, 148);
+    border-radius: 1rem;
+    color: #fff;
+    display: grid;
+    place-items: center;
+   
+    
+}
+#services .family{
+    background-color: rgb(88, 54, 54);
+    border-radius: 1rem;
+    color: #fff;
+    display: grid;
+    place-items: center;
+ 
+    
+}
+#services .immobile{
+    background-color: rgb(122, 31, 31);
+    border-radius: 1rem;
+    color: #fff;
+    display: grid;
+    place-items: center;
+ 
+    
+}
+
+@media (max-width: 576px) {
+    #services {
+        width: 75%;
+        margin: 5rem auto
+    }
+    #services .col-12{
+        width: 100%;  
+      }
+}

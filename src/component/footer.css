@@ -1,0 +1,19 @@
+#footer ul li{
+    padding: .4rem 0;
+    list-style-type: none;
+}
+#footer .col-md-4 img{
+    width: 3rem;
+    height: 1rem;
+    object-fit: contain;
+   
+}
+#footer .col-md-4 h4{
+    font-size: 1rem!important;
+    font-weight: 500; 
+}
+#footer .col-md-4 ul li a{
+   text-decoration: none;
+   color: #000;
+   
+}

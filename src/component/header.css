@@ -1,0 +1,10 @@
+.navbar .logo{
+    width: 3rem;
+    height: 1rem;
+    object-fit: contain;
+}
+
+.nav-item .nav-link{
+    font-size: .8rem!important;
+    font-weight: 500;
+}

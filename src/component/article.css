@@ -1,0 +1,53 @@
+#article{
+    padding: 5rem 0;
+    background-color: whitesmoke;
+}
+
+#article .col-12{
+    width: 23%;
+    margin: 0 .3rem;
+
+}
+
+#article .immobile{
+    background-color: #fff;
+    box-shadow: 0 0 1px #999;
+    border-radius: 1rem;
+    padding: 1.2rem 1rem 0;
+   
+}
+
+@media (max-width: 576px) {
+    #article .col-12{
+        width: 100%;
+        margin: 1rem 0;
+    
+    }
+}
+#article .immobile .date{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #000;
+    padding: 1rem 0;
+}
+
+#article .immobile p{
+  font-size: .7rem;
+  color: #000;
+}
+#article .immobile .date h6{
+  font-size: .7rem;
+}
+#article .immobile .date li{
+   color: #000;
+   text-align: center;
+   margin: auto;
+   display: inline;
+   list-style-type: disc;
+}
+#article .immobile .date a{
+   color: #000;
+   font-size: .5rem;
+   display: inline;
+}
